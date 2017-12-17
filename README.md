@@ -1,4 +1,4 @@
-# extended-kalman-filter
+# unscented-kalman-filter
 Project 2 of term 2 of Udacity self-driving car nanodegree
 
 ## Setup
