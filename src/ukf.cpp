@@ -145,16 +145,6 @@ void UKF::ProcessMeasurement(const MeasurementPackage& measurement_pack) {
 		return;
 	}
 
-	if (measurement_pack.sensor_type_ == MeasurementPackage::RADAR) {
-		std::cout << "Range = " << measurement_pack.raw_measurements_(0) << std::endl;
-		std::cout << "Angle = " << measurement_pack.raw_measurements_(1) << std::endl;
-		std::cout << "Range Dot = " << measurement_pack.raw_measurements_(2) << std::endl;
-	}
-	else {
-		std::cout << "X = " << measurement_pack.raw_measurements_(0) << std::endl;
-		std::cout << "Y = " << measurement_pack.raw_measurements_(1) << std::endl;
-	}
-
 	// Predict
 	VectorXd x_pred = VectorXd(n_x_);
 	MatrixXd P_pred = MatrixXd(n_x_, n_x_);
