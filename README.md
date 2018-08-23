@@ -1,5 +1,8 @@
-# unscented-kalman-filter
-Project 2 of term 2 of Udacity self-driving car nanodegree
+# Unscented Kalman filter
+
+In this project we utilize an Unscented Kalman Filter and CTRV motion model to estimate the state of a moving object of interest with noisy lidar and radar measurements. 
+
+[![simulator test](images/screenshot.png)](https://www.youtube.com/watch?v=g-3H8dU-fH0) 
 
 ## Setup
 
